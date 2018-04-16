@@ -9,6 +9,9 @@ body{
 a:link, a:visited {
     color: blue;
 }
+a:hover {
+    text-decoration:underline;
+}
 
 /*STRUCTURE*/
 #wrapper{
@@ -45,6 +48,7 @@ h1{
     font-weight:100;
     max-width:130px;
     margin-top:80px;
+    text-align: left;
 }
 @media (max-width: 800px){
     h1{
@@ -107,4 +111,14 @@ article p{
     font-family:sans-serif;
     font-size:20px;
     margin-top:14px;
+}
+
+article h3{
+    display:block;
+    margin: 0;
+    font-family:sans-serif;
+    text-transform:;
+    font-size:20px;
+    font-weight:100;
+    max-width: 900px;
 }
